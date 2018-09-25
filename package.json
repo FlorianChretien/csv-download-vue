@@ -1,0 +1,27 @@
+{
+  "name": "csv-download-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "dev": "webpack --display-error-details --mode=development"
+  },
+  "repository": "https://github.com/FlorianChretien/csv-download-vue.git",
+  "author": "Florian Chrétien <f.chretien@oenodata.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.1.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "json2csv": "^4.2.1",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.1"
+  }
+}
