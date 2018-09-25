@@ -1,6 +1,6 @@
 # csv-download-vue
 
-Based on json2csv.
+Component VueJS for dowload json on csv. Based on json2csv.
 
 ### Lauch exemple
 
